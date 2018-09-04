@@ -33,7 +33,7 @@ app.use(bodyParser.json());
 app.use(express.static("public"));
 app.set("view engine", "ejs");
 
-mongoose.connect('mongodb://joy:amijoy57@ds139632.mlab.com:39632/todosdatabase',{ useNewUrlParser: true }, (err, response) => {
+mongoose.connect('mongodb://localhost/todosdatabase',{ useNewUrlParser: true }, (err, response) => {
     console.log('Database Connected...');
 
     if (err) 
