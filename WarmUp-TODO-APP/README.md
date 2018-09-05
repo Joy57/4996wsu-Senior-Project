@@ -54,7 +54,7 @@ Visit `http::/localhost:3000` to checkout the app
 ### Database
 
 Make sure to connect to your own database
-by changing file `app.js` (line 35, mongoose.connect) to `mongodb://localhost/tododatabase`
+by changing file `app.js` (line 35, mongoose.connect) `mongodb://localhost/tododatabase`
 
 
 ## Running the tests
