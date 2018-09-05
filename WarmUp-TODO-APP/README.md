@@ -49,7 +49,7 @@ npm install
 ```
 You can now get the app server up and running by typing `node app.js`. It's that simple!
 
-You can now see the app by visiting `http::/localhost:3000`
+Visit `http::/localhost:3000` to checkout the app
 
 ### Database
 
