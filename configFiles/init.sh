@@ -9,5 +9,5 @@ echo "Verifying docker installation..."
 sudo docker run hello-world 
 
 echo "Pulling the weather image and running it"
-sudo docker run -dit --restart unless-stopped joyabe18/test2:pi1
+sudo docker run -p 8000:8000 --restart unless-stopped joyabe18/test3:latest
 
