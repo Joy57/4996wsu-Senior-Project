@@ -8,7 +8,7 @@ sudo rm /etc/nginx/nginx.conf
 sudo rm /etc/nginx/sites-enabled/default
 sudo cp nginx.conf /etc/nginx/nginx.conf
 sudo cp default /etc/nginx/sites-enabled/default
-sudo service nginx start
+sudo service nginx restart
 chmod u+x init.sh
 echo "completed all steps..."
 echo "now you can run init.sh"
